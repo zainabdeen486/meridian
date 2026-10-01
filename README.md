@@ -58,7 +58,16 @@ npm run dev:server   # tsx watch, :4000
 npm run dev:web      # vite, :5174
 ```
 
-## Deploy (Render, free)
+## Deploy
+
+### Koyeb (free, no credit card — recommended)
+
+1. Sign up at [koyeb.com](https://koyeb.com) with GitHub (no card needed for the free tier).
+2. **Create Web Service** → select the `meridian` repo → **Builder: Dockerfile**.
+3. Instance type: **Free** (0.1 vCPU / 512 MB). Region: Frankfurt or Washington.
+4. Deploy. Koyeb injects `PORT` automatically; the server picks it up. WebSockets work out of the box.
+
+### Render (free tier, card required)
 
 1. Push this repo to GitHub.
 2. Render Dashboard → New → **Blueprint** → select the repo (`render.yaml` is at the root).
