@@ -1,0 +1,1 @@
+{"description":"Meridian — limit order-book exchange + live trading terminal","name":"meridian","private":true,"scripts":{"build":"npm --prefix web run build && npm --prefix server run build","dev:server":"npm --prefix server run dev","dev:web":"npm --prefix web run dev","start":"npm --prefix server start","test":"npm --prefix server run test"},"version":"1.0.0"}
